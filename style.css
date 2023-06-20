@@ -1,0 +1,86 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: white;
+
+    padding: 2rem 9%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 30px;
+}
+
+header nav a:hover {
+    transition: 1s;
+    transform: scale(1.05);
+    background-color: rgb(102,102,102,0.1);
+}
+  
+h1 {
+    font-size: 60px;
+    padding-left: 444px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+  
+section{
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+.coluna{
+    float: left;
+    width: 25%;
+    padding-left: 120px;
+    padding-top: 50px   ;
+    
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .titulo{
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+  }
+  .texto{
+    font-family: "Manrope" , sans-serif;
+    font-size: 18px;
+    color: rgb(63, 63, 63)
+  }
+  .imagem{
+    margin: auto;
+    width: 700px;
+  }
+.telefone{
+    font-weight: bold;
+    font-size: 18px;
+}
