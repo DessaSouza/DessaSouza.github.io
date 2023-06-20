@@ -55,28 +55,7 @@ body{
     overflow-y: scroll;
 }
 
-.coluna{
-    float: left;
-    width: 25%;
-    padding-left: 120px;
-    padding-top: 50px   ;
-    
-}
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-  .titulo{
-    font-family: 'Manrope', sans-serif;
-    font-size: 25px;
-  }
-  .texto{
-    font-family: "Manrope" , sans-serif;
-    font-size: 18px;
-    color: rgb(63, 63, 63)
-  }
   .imagem{
     margin: auto;
     width: 700px;
@@ -85,3 +64,81 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+
+#codigosmari
+
+.ul{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+li{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+
+.texto_sant{
+  float: left;
+  text-align: center;
+
+}
+
+.coluna{
+  float: left;
+  width: 60%;
+  padding-inline-start: 120px;
+  padding-top: 50px;
+  text-align: center;
+  
+  
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:active {
+  background-color: #006AE8;
+}
+
+.button:hover {
+  background-color: #1C84FF;
+}
+
+.container{
+  display: inline;
+  text-align: center;
+  
+}
+
+
+
