@@ -48,6 +48,7 @@ section{
     padding-right: 200px;
     padding-left: 100px;
     display: inline-block;
+    text-align: justify;
 }
 
 body{
