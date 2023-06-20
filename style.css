@@ -136,8 +136,212 @@ li{
 
 .container{
   display: inline;
-  text-align: center;
-  
+  text-align: center; 
+}
+
+.titulinho {
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibagens{
+    height: 412px;
+    width: 450px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.card{
+    height: 412px;
+    margin: 30px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro{
+    height: 80px;
+    width: 450px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 80px;
+    background: rgb(27,27,27,.5);
+    color: whitesmoke;
+    transition: .5s;
+}
+
+.pontostitle{
+    margin: 10px;
+    font-size: 35px;
+}
+
+.textoPonto{
+    font-size: 13px;
+    margin: 5px;
+    text-align: justify;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .intro{
+    height: 220px;
+    bottom: 220px;
+    background: black;
+}
+
+.card:hover .textoPonto{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .ibagens{
+    transform: scale(1.4) rotate(-3deg);
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibagens2{
+    height: 412px;
+    width: 450px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.card2{
+    height: 412px;
+    margin: 30px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro2{
+    height: 90px;
+    width: 450px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 80px;
+    background: rgb(27,27,27,.5);
+    color: whitesmoke;
+    transition: .5s;
+}
+
+.pontostitle2{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.textoPonto2{
+    font-size: 13px;
+    margin: 5px;
+    text-align: justify;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card2:hover{
+    cursor: pointer;
+}
+
+.card2:hover .intro2{
+    height: 220px;
+    bottom: 220px;
+    background: black;
+}
+
+.card2:hover .textoPonto2{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card2:hover .ibagens2{
+    transform: scale(1.4) rotate(-3deg);
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibagens3{
+    height: 412px;
+    width: 450px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.card3{
+    height: 412px;
+    margin: 30px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro3{
+    height: 80px;
+    width: 450px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 80px;
+    background: rgb(27,27,27,.5);
+    color: whitesmoke;
+    transition: .5s;
+}
+
+.pontostitle3{
+    margin: 10px;
+    font-size: 35px;
+}
+
+.textoPonto3{
+    font-size: 13px;
+    margin: 5px;
+    text-align: justify;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card3:hover{
+    cursor: pointer;
+}
+
+.card3:hover .intro3{
+    height: 350px;
+    bottom: 350px;
+    background: black;
+}
+
+.card3:hover .textoPonto3{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card3:hover .ibagens3{
+    transform: scale(1.4) rotate(-3deg);
 }
 
 
